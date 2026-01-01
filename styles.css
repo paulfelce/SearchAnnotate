@@ -1,0 +1,25 @@
+/* Ensure the original Google content doesn't shrink */
+.tF2Cxc > div:first-child, 
+.g > div:first-child {
+  flex: 1; 
+  max-width: 600px;
+}
+
+.search-note-container {
+  width: 250px; /* Fixed width for your notes */
+  min-width: 250px;
+  margin-top: 5px;
+}
+
+.search-note-container textarea {
+  width: 100%;
+  height: 80px; /* Taller box for easier typing */
+  border: 1px solid #34a853; /* Green border to match text */
+  border-radius: 8px;
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #2d8c3c !important;
+  background-color: #f9fff9;
+  resize: vertical; /* Allow you to pull it down if needed */
+}
